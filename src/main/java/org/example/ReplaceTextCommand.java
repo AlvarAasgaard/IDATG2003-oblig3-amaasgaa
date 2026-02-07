@@ -17,6 +17,9 @@ public class ReplaceTextCommand implements TextCommand {
 
   @Override
   public String execute(String text) {
+    if (text == null) {
+      return null;
+    }
     return text.replace(target, replacement);
   }
 }
