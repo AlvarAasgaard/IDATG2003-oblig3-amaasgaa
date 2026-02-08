@@ -26,6 +26,6 @@ public class CapitalizeTextCommand {
     if (text == null || text.isEmpty()){
       return "No text to capitalize";
     }
-    return text.substring(0, 1).toUpperCase() + text.substring(1);
+    return text.substring(0, 1).toUpperCase() + text.substring(1).toLowerCase();
   }
 }
