@@ -1,6 +1,6 @@
-package org.example;
+package org.example.replacetext;
 
-public class ReplaceFirstTextCommand extends ReplaceTextCommand{
+public class ReplaceFirstTextCommand extends ReplaceTextCommand {
   public ReplaceFirstTextCommand(String target, String replacement) {
     super(target, replacement);
     }

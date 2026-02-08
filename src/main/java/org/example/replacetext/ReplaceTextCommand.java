@@ -1,4 +1,6 @@
-package org.example;
+package org.example.replacetext;
+
+import org.example.TextCommand;
 
 public class ReplaceTextCommand implements TextCommand {
   protected String target;
