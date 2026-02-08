@@ -39,11 +39,10 @@ public class CapitalizeWordTextCommand extends CapitalizeTextCommand{
       String word = words[i];
 
       if (!word.isEmpty()){
-        String capitalized = word.substring(0, 1).toUpperCase()
-            + word.substring(1).toLowerCase();
+        String capitalized = super.execute(word);
         result.append(capitalized);
       }
-      if (i+1 < words.length-1){
+      if (i < words.length-1){
         result.append(" ");
       }
     }
