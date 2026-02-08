@@ -1,4 +1,4 @@
-package org.example.replacetext;
+package org.example.replaceText;
 
 import org.example.TextCommand;
 

@@ -1,4 +1,6 @@
-package org.example;
+package org.example.wrapText;
+
+import org.example.TextCommand;
 
 /**
  * This class represents a command that wraps a

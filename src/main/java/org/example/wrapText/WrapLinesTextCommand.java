@@ -1,4 +1,4 @@
-package org.example.wraptext;
+package org.example.wrapText;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

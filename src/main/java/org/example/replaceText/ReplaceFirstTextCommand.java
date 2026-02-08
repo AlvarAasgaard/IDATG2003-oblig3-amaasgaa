@@ -1,4 +1,4 @@
-package org.example.replacetext;
+package org.example.replaceText;
 
 public class ReplaceFirstTextCommand extends ReplaceTextCommand {
   public ReplaceFirstTextCommand(String target, String replacement) {
