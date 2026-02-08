@@ -42,7 +42,7 @@ public class WrapSelectionTextCommand extends WrapTextCommand{
     if (selection == null || selection.isEmpty()){
       return text;
     }
-    String wrapped = opening + selection + end;
+    String wrapped = super.execute(selection);
     return text.replace(selection, wrapped);
   }
 }
