@@ -1,6 +1,6 @@
-package org.example;
+package org.example.replaceText;
 
-import org.example.replaceText.ReplaceFirstTextCommand;
+import org.example.TextCommand;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
