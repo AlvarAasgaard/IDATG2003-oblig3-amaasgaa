@@ -1,9 +1,11 @@
 package org.example.capitalizeText;
 
+import org.example.TextCommand;
+
 /**
  * This class represents a command to capitalize the first word in a sentence.
  */
-public class CapitalizeTextCommand {
+public class CapitalizeTextCommand implements TextCommand {
   /**
    * The text string to be capitalized
    */
